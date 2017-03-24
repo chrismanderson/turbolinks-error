@@ -1,0 +1,9 @@
+{
+  "name": "turbolinks-error",
+  "description": "A repo to test a turbolinks bug",
+  "repository": "https://github.com/chrismanderson/turbolinks-error",
+  "keywords": ["ruby", "rails"],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}
